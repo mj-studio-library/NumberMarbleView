@@ -89,7 +89,7 @@ allprojects {
 ### Module-level build.gradle
 
 ```gradle
-implementation 'mjstudio:NumberMarbleView:1.0'
+implementation 'mjstudio:numbermarbleview:1.0'
 ```
 
 ----
