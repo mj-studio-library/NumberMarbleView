@@ -2,14 +2,14 @@ apply plugin: 'maven-publish'
 apply plugin: 'com.jfrog.bintray'
 
 version '1.0' // your library version
-group 'happy.mjstudio' // whatever group name you'd like
+group 'mjstudio' // whatever group name you'd like
 
 publishing {
     publications {
         Production(MavenPublication) {
             artifact("$buildDir/outputs/aar/numbermarbleview-release.aar") // replace with your library name
             groupId this.group
-            artifactId 'numbermarbleview' // replace with your library artifact id
+            artifactId 'NumberMarbleView' // replace with your library artifact id
             version this.version
 
             pom.withXml {
@@ -33,7 +33,7 @@ publishing {
 
 bintray {
     user = project.hasProperty('user') ?: System.getenv('BINTRAY_USER')
-    key = project.hasProperty('apiKey') ?: System.getenv('BINTRAY_API_KEY')
+    key =  project.hasProperty('apiKey') ?: System.getenv('BINTRAY_API_KEY')
     publications = ['Production']
     configurations = ['archives']
     // Default: false. Whether to run this as dry-run, without deploying
@@ -44,7 +44,8 @@ bintray {
     publish = true
     pkg {
         repo = 'MJStudio' // the name of the repository you created on Bintray
-        name = 'happy.mjstudio.numbermarbleview' // the name of the package you created inside it
+        name = 'NumberMarbleView' // the name of the package you created inside it
+        userOrg = 'mjstudio'
         version {
             name = this.version
             released = new Date()
