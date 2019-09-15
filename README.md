@@ -1,6 +1,9 @@
 # NumberMarbleView
 
 
+<img src="https://github.com/mym0404/NumberMarbleView/blob/master/sampleimage/sample.gif" width = 300>
+
+
 ----
 
 ## Usage
@@ -69,6 +72,26 @@ numberMarbleView.isVertical = true
 
 ## Download
 
+### Project-level build.gradle
+
+```gradle
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://mjstudio.bintray.com/MJStudio"
+        }
+    }
+}
+```
+
+### Module-level build.gradle
+
 ```gradle
 implementation 'mjstudio:NumberMarbleView:1.0'
 ```
+
+----
+
+Thank you
