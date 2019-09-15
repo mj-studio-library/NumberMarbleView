@@ -1,0 +1,2 @@
+include ':sample', ':numbermarbleview'
+rootProject.name='NumberMarbleView'

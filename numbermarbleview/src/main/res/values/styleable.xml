@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberMarbleView">
+        <attr name="marble_marble_count" format="integer"/>
+        <attr name="marble_marble_radius" format="dimension"/>
+        <attr name="marble_line_length" format="dimension"/>
+        <attr name="marble_line_width" format="dimension"/>
+        <attr name="marble_line_color" format="color"/>
+        <attr name="marble_number_text_size" format="dimension"/>
+        <attr name="marble_number_text_color" format="color"/>
+        <attr name="marble_number_text_shadow_color" format="color"/>
+        <attr name="marble_orientation_vertical" format="boolean"/>
+    </declare-styleable>
+</resources>
