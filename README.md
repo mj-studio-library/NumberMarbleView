@@ -1,6 +1,9 @@
 # NumberMarbleView
 
 
+<img src="https://github.com/mym0404/NumberMarbleView/blob/master/sampleimage/sample.gif" width = 300>
+
+
 ----
 
 ## Usage
