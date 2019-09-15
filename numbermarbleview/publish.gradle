@@ -9,7 +9,7 @@ publishing {
         Production(MavenPublication) {
             artifact("$buildDir/outputs/aar/numbermarbleview-release.aar") // replace with your library name
             groupId this.group
-            artifactId 'NumberMarbleView' // replace with your library artifact id
+            artifactId 'numbermarbleview' // replace with your library artifact id
             version this.version
 
             pom.withXml {
