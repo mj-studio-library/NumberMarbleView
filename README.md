@@ -87,7 +87,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.mym0404:NumberMarbleView:Tag'
+    implementation 'com.github.mym0404:NumberMarbleView:1.0'
 }
 ```
 
