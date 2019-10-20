@@ -76,20 +76,19 @@ numberMarbleView.isVertical = true
 
 ```gradle
 allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven {
-            url "https://mjstudio.bintray.com/MJStudio"
-        }
-    }
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
 }
 ```
 
 ### Module-level build.gradle
 
 ```gradle
-implementation 'mjstudio:numbermarbleview:1.0'
+dependencies {
+    implementation 'com.github.mym0404:NumberMarbleView:Tag'
+}
 ```
 
 ----
